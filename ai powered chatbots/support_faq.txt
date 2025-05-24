@@ -1,0 +1,8 @@
+Ticket: The LED on my SmartHome Hub is blinking orange.
+Response: The blinking orange LED typically indicates a firmware update in progress. Please do not unplug the device during this time.
+
+Ticket: I tried resetting my hub but it’s still not connecting to Wi-Fi.
+Response: Please ensure your router is using a 2.4GHz network. If so, try setting up the device using the SmartHome app again.
+
+Ticket: How can I change the Wi-Fi network on my SwiftTech device?
+Response: Open the SmartHome app, select your device, go to Settings > Wi-Fi, and follow the on-screen instructions.

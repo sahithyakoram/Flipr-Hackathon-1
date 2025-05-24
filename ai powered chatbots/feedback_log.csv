@@ -1,0 +1,4 @@
+Ticket ID,Summary,Suggested Reply,Feedback
+TCK001,Customer issue: The LED on my SmartHome Hub is blinking orange. What does that mean?,An orange LED indicates your hub is in pairing mode. Try completing setup in the app.,yes
+TCK002,Customer issue: I tried resetting my hub but it's still not connecting to Wi-Fi.,Forwarding to tech team for further analysis.,yes
+TCK003,Customer issue: How can I change the Wi-Fi network on my SwiftTech device?,"To change the Wi-Fi network, go to Settings > Network in the SmartHome app and follow the on-screen instructions.",yes

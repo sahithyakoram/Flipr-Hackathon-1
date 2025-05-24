@@ -1,0 +1,82 @@
+
+Company: SwiftTech
+Product: SmartHome Hub
+
+==================================================
+📚 Frequently Asked Questions (FAQs)
+==================================================
+
+1. How do I reset my SmartHome Hub?
+To reset your SmartHome Hub, press and hold the power button for 10 seconds until the LED light blinks red. This will restore the hub to its factory settings. Make sure to reconnect the device in the SmartHome app after reset.
+
+2. What do the LED lights indicate?
+- Green: Device is operating normally.
+- Blue: Device is in pairing mode.
+- Red: Device has encountered an error or is not connected to Wi-Fi.
+
+3. How do I connect my SmartHome Hub to Wi-Fi?
+Open the SmartHome app, go to Settings > Network > Connect to Wi-Fi. Select your home network and enter the password. The LED will turn green once successfully connected.
+
+4. Can I use my SmartHome Hub with Alexa?
+Yes. To integrate with Alexa, open the SmartHome app > Settings > Integrations > Alexa > Link Account. You will be redirected to sign in with your Amazon credentials.
+
+5. Is there a mobile app available?
+Yes, the SmartHome App is available on both Android (Google Play Store) and iOS (App Store). Search for “SwiftTech SmartHome”.
+
+6. How do I add new devices to my SmartHome Hub?
+Open the app, tap the “+” icon on the dashboard, and follow the pairing instructions. Ensure your new device is powered on and in pairing mode (LED blinking blue).
+
+7. What should I do if my hub is offline?
+Check your Wi-Fi router and ensure it’s online. If your internet is working, try restarting the hub by unplugging and replugging it. If the issue persists, reset the hub.
+
+==================================================
+🔧 Troubleshooting Guides
+==================================================
+
+🛠 Wi-Fi Connection Issues:
+- Ensure your router is on and within range.
+- Try resetting your hub and reconnecting it.
+- Avoid 5GHz networks; connect to 2.4GHz instead.
+- Use the latest version of the SmartHome App.
+
+🛠 Device Not Responding:
+- Ensure device is powered on.
+- Remove and re-add the device via the app.
+- Reset the device using the manufacturer’s reset method.
+
+🛠 Mobile App Crashing:
+- Ensure the app is updated.
+- Clear cache (Settings > Apps > SmartHome App > Clear Cache).
+- Reinstall the app.
+
+🛠 Voice Assistant Integration Fails:
+- Check that you have linked the correct Amazon account.
+- Make sure your device is online and visible in the Alexa app.
+- Unlink and re-link from the SmartHome App.
+
+==================================================
+📄 Company Policies
+==================================================
+
+📝 Warranty Policy:
+- All SwiftTech SmartHome devices come with a 1-year manufacturer warranty.
+- Warranty covers manufacturing defects but not accidental damage.
+- A valid purchase invoice is required for warranty claims.
+
+📝 Return Policy:
+- 30-day return window from the date of delivery.
+- Product must be returned in original packaging with all accessories.
+
+📝 Privacy & Data Policy:
+- We encrypt all user data end-to-end.
+- No personal data is shared with third-party advertisers.
+- Users can request data deletion via the support portal.
+
+==================================================
+📞 Support Contact
+==================================================
+
+- Email: support@swifttech.com
+- Toll-Free: 1800-234-7789
+- Live Chat: Available 24/7 via SmartHome App
+
