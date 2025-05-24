@@ -1,9 +1,9 @@
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
-from langchain.document_loaders import TextLoader
+from langchain_community.llms import HuggingFaceHub, __all__
+from langchain_huggingface import HuggingFaceEmbeddings, HuggingFaceEndpoint
+from langchain_community.vectorstores import FAISS
+from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains import RetrievalQA
-from langchain.llms import HuggingFaceHub
 
 loader = TextLoader("support_faq.txt")
 documents = loader.load()
@@ -15,8 +15,18 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 vectorstore = FAISS.from_documents(docs, embeddings)
 retriever = vectorstore.as_retriever()
 
-llm = HuggingFaceHub(repo_id="google/flan-t5-base", model_kwargs={"temperature": 0.5, "max_length": 256})
+llm = HuggingFaceEndpoint(
+    repo_id="HuggingFaceH4/zephyr-7b-beta",
+    task="text-generation",
+    huggingfacehub_api_token="YOUR API KEY",
+    temperature=0.5,
+    max_new_tokens=512
+)
+
+#
+# llm = HuggingFaceHub(repo_id="google/flan-t5-base", model_kwargs={"temperature": 0.5, "max_length": 256})
 qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
+
 
 tickets = [
     {"id": "TCK001", "summary": "The LED on my SmartHome Hub is blinking orange."},
