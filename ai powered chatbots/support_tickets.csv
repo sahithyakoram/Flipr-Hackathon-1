@@ -1,0 +1,7 @@
+ticket_id,timestamp,user_query,sentiment,priority,status
+TCK001,2025-05-20 10:32:00,My hub won’t connect to WiFi,negative,High,Open
+TCK002,2025-05-20 11:10:00,How do I reset the SwiftTech hub?,neutral,Normal,Closed
+TCK003,2025-05-21 09:45:00,The LED is blinking orange.,neutral,Normal,Open
+TCK004,2025-05-21 12:05:00,Very disappointed. Nothing works!,negative,High,Open
+TCK005,2025-05-22 15:25:00,Can I change my WiFi settings?,neutral,Normal,Closed
+TCK006,2025-05-23 08:00:00,Frustrated with customer service,negative,High,Open
