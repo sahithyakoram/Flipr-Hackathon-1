@@ -73,7 +73,7 @@ retriever = vectorstore.as_retriever()
 llm = HuggingFaceEndpoint(
     repo_id="google/flan-t5-base",
     task="text2text-generation",
-    huggingfacehub_api_token= "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",
+    huggingfacehub_api_token= os.getenv("HF_TOKEN"),
     temperature=0.5,
     max_new_tokens=512
 )

@@ -4,6 +4,7 @@ from langchain.chains import RetrievalQA
 from langchain_huggingface import HuggingFaceEmbeddings
 import csv
 import uuid
+import os
 from datetime import datetime
 from utils.classify import classify_query
 from feedback_logger import collect_feedback
@@ -76,9 +77,9 @@ vectorstore = Chroma(persist_directory="chroma_db", embedding_function=embedding
 
 # Load QA chain with local model
 llm = HuggingFaceEndpoint(
-    repo_id="HuggingFaceH4/zephyr-7b-beta",
-    task="text-generation",
-    huggingfacehub_api_token="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",
+    repo_id="google/flan-t5-base",
+    task="text2text-generation",
+    huggingfacehub_api_token= os.getenv("HF_TOKEN"),
     temperature=0.5,
     max_new_tokens=512
 )
