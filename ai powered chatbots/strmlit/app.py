@@ -14,9 +14,9 @@ embedding = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vectorstore = Chroma(persist_directory="chroma_db", embedding_function=embedding)
 
 llm = HuggingFaceEndpoint(
-    repo_id="HuggingFaceH4/zephyr-7b-beta",
-    task="text-generation",
-    huggingfacehub_api_token="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",
+    repo_id="google/flan-t5-base",
+    task="text2text-generation",
+    huggingfacehub_api_token= os.getenv("HF_TOKEN"),
     temperature=0.5,
     max_new_tokens=512
 )
