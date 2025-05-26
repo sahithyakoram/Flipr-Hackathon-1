@@ -59,7 +59,7 @@ import os
 
 
 # Load and split docs
-loader = TextLoader("ai powered chatbots/support_faq.txt", encoding="utf-8")
+loader = TextLoader(r"ai powered chatbots/support_faq.txt", encoding="utf-8")
 documents = loader.load()
 text_splitter = CharacterTextSplitter(chunk_size=200, chunk_overlap=20)
 docs = text_splitter.split_documents(documents)
@@ -73,7 +73,7 @@ retriever = vectorstore.as_retriever()
 llm = HuggingFaceEndpoint(
     repo_id="google/flan-t5-base",
     task="text2text-generation",
-    huggingfacehub_api_token= "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",
+    huggingfacehub_api_token= "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",
     temperature=0.5,
     max_new_tokens=512
 )
